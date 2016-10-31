@@ -1,6 +1,6 @@
 package com.runoob.w0ng.oo.virtual;
 
-public class Employee {
+public class Employee implements java.io.Serializable {
 
 	private String name;
 	private String address;
@@ -8,6 +8,7 @@ public class Employee {
 	
 	public Employee(String name, String address, int number) {
 		System.out.println("Employee 构造函数");
+		this.name = name;
 		this.address = address;
 		this.number = number;
 	}

@@ -36,6 +36,5 @@ public class MammalInt implements Animals {
 //		多态
 		m.eat();
 		m.travel();
-		
 	}
 }
