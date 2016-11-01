@@ -3,4 +3,4 @@
 javaoo/javaoo.iml
 .idea
 out/
-
+*.class
